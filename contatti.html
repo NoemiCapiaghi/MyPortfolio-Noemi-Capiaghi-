@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Capiaghi Noemi - Contatti</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contatti.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="header">
+  <div class="container">
+
+    <!-- LOGO -->
+    <a href="index.html" class="logo">
+      <img src="assets/immagini/favicon.ico" alt="Noemi Capiaghi" width="220">
+    </a>
+
+    <!-- MENU -->
+    <nav class="menu">
+      <a href="index.html">ABOUT ME</a>
+      <a href="curriculum.html">CURRICULUM</a>
+      <a href="#" class="active">CONTATTI</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- FORM -->
+<main class="container-fluid my-5">
+  <form class="mx-auto" style="max-width: 900px;">
+    
+    <div class="mb-4">
+      <label for="name" class="form-label text-uppercase">Nome e Cognome</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+
+    <div class="mb-4">
+      <label for="email" class="form-label text-uppercase">Indirizzo email</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+
+    <div class="mb-5">
+      <label for="message" class="form-label text-uppercase">Scrivi un messaggio</label>
+      <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn cta-btn">
+        INVIA
+      </button>
+    </div>
+
+  </form>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-left">
+        <strong>Noemi Capiaghi</strong>
+        <p>Questo sito è stato interamente progettato e sviluppato da me.</p>
+    </div>
+
+    <div class="footer-right">
+        <strong>Seguimi</strong>
+        <a href="https://github.com" target="_blank" title="profilo github" id="github">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/noemi-capiaghi-b7934b258/" target="_blank" title="profilo linkedin di Noemi Capiaghi" id="linkedin">
+            <i class="fa-brands fa-square-linkedin"></i>
+        </a>
+        <a href="mailto:noemi.capiaghi@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 - Tutti i diritti riservati
+    </div>
+</footer>
+
+</body>
+</html>
